@@ -1,0 +1,41 @@
+.Cabecera {
+    text-align: center;
+}
+
+body {
+    font-size: 15px;
+}
+
+p {
+    text-indent: 15px;
+    font-weight: bold;
+}
+
+.Info {
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1, h2{
+    color: #005677;
+    background-color:#C4C4C4;  
+    letter-spacing: 5px;
+    text-indent: 35px;
+    line-height: 150%;
+}
+
+h1{
+    letter-spacing: 8px;
+}
+
+
+footer{
+    background-color: #005677;
+    text-align: center;
+    color:white;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px; 
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}

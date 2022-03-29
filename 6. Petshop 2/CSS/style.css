@@ -1,0 +1,119 @@
+.extremo{
+    background-color:#222222;
+    color:white ;
+    font-size: 10px;
+    line-height: 20px;
+}
+
+#extremo, #navegador {
+    columns: 2;
+}
+
+.left{
+    text-align: left;
+    margin-left: 50px;
+}
+.rigth{
+    text-align: right;
+    margin-right: 50px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+#navegador {
+    background-color: #F0A83E;
+    line-height: 75px;
+    word-spacing: 5px;
+}
+#logo{
+    position: relative;
+    bottom:-5px;
+
+}
+
+/* Banner */
+
+.banner{
+    position: relative;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.textbanner1 {
+    position: absolute;
+    bottom:200px;
+    right: 100px;
+}
+
+.textbanner2 {
+    position: absolute;
+    bottom:180px;
+    right: 100px;
+}
+
+.textbanner3 {
+    position: absolute;
+    bottom:150px;
+    right: 100px;
+}
+
+.card{
+    background-color:#FBFAF6;
+    width: 275px;
+    text-align: center;
+    display: flex;
+}
+
+.productos{
+columns: 3;    
+}
+
+.Titular {
+text-align: center;
+word-spacing: 5px;
+}
+
+
+main {
+
+    line-height: 10px
+    ;}
+
+.cajadatos{
+    columns: 3;
+    background-color: #3C2313;
+    border-radius: 25px;
+    text-indent: 10px;
+    color: #FBFAF6;
+    line-height: 50px;
+    width: 650px;
+
+}
+
+
+#suscripcion {
+    background-color:#F0A83E;
+}
+
+footer {
+    background-color: #3C2313;
+
+}
+
+body {
+    font-family: Roboto; 
+    margin: 0px;
+    font-size: 13px;
+}
+
+
+
+
+

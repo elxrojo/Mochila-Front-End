@@ -1,0 +1,106 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #222222;
+    color: aliceblue;
+    flex-wrap: wrap;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+}
+
+header li{
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: lighter;
+    display: inline;
+}
+
+
+.logo{
+    display: flex;
+    align-items:center;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#logo1{
+    color: green;
+}
+.textorojo{
+    color: red;
+}
+
+#textobanner{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+
+#EspacioTarjetas{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:center;
+    background-color: #E5E5E5;
+}
+
+#TarjetaBanner{
+    background-image: url(../img/delivery.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 5px 50px 50px;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+#TarjetaRanking{
+    position :relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    margin: 50px 50px 50px 5px;
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    justify-items: center;
+}
+
+#TarjetaRanking img{
+    position: absolute;
+    left: 325px;
+    top: 125px;
+    width: 92px;
+}
+
+#TarjetaRanking h1{
+    text-align: center;
+    margin: 25px;
+}
+
+#TarjetaRanking ol, #TarjetaRanking h2{
+    padding: 5px 50px ;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+footer{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #222222;
+    color: aliceblue;
+    height: 150px;
+    padding: 0px  20px ;
+    line-height: 30px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,22 @@
+
+html {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;    
+    background-attachment:scroll;
+}
+
+#TituloPrincipal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: aliceblue;
+    font-size: 60px;
+    line-height: 345%;
+}
+
+#pporfil{
+    text-align:start;
+    max-width: 15px;
+    max-height: 10px;
+}
