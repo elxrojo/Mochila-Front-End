@@ -5,24 +5,26 @@
 }
 
 header{
-    display: flex;
     background-color: #222222;
     color: aliceblue;
+}
+
+#espacioheader{
+    display: flex;
     flex-wrap: wrap;
-    height: 100px;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
     align-items: center;
 }
 
-header li{
+#lista li{
     display: inline-flex;
     font-size: 16px;
     font-weight: lighter;
-    display: inline;
 }
 
 
-.logo{
+#logocompleto{
     display: flex;
     align-items:center;
     margin: 10px;
@@ -31,6 +33,7 @@ header li{
 }
 
 #logo1{
+    margin: 0px 0px 0px 5px;
     color: green;
 }
 .textorojo{
@@ -94,13 +97,21 @@ header li{
 
 footer{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     background-color: #222222;
     color: aliceblue;
-    height: 150px;
-    padding: 0px  20px ;
+    padding: 10px  20px ;
     line-height: 30px;
     font-size: 16px;
-    align-items: center;
     justify-content: space-between;
+}
+
+#lista2{
+    display: flex;
+}
+
+#logocompleto2{
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
 }
